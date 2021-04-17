@@ -9,8 +9,8 @@ Hora de construir nosso workflow do começo ao fim!
 1. Jobs obrigatórios
    1. Build e test
    2. Linter (ver exemplo)
-   3. Deploy homologacao (depende de 1 e 2)
-   4. Deploy producao (depende de 3)
+   3. Deploy homologacao (depende de i e ii)
+   4. Deploy producao (depende de iii)
 2. Uso de **variáveis de ambiente** quando for necessário armazenar nome da aplicação, versão do framework, etc
 3. Uso de **secrets** para tokens de API, senha de BD, credenciais de autenticação
 4. Uso de **ambientes** (`environments`) para separar secrets dos ambientes de Homologação e Produção
