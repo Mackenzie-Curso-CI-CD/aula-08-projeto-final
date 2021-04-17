@@ -27,8 +27,8 @@ O deploy pode ser feito em qualquer cloud de sua preferência. Recomendados: **A
 ## Dados importantes
 
 **Strings de conexão do Banco de Dados**
-- **Homologação:** "mongodb+srv://dba:s2OuCobCglTtech6@cluster0.uiv1l.mongodb.net/local_library_dev?retryWrites=true"
-- **Produção:** "mongodb+srv://dba:s2OuCobCglTtech6@cluster0.uiv1l.mongodb.net/local_library?retryWrites=true"
+- **Homologação:** `"mongodb+srv://dba:s2OuCobCglTtech6@cluster0.uiv1l.mongodb.net/local_library_dev?retryWrites=true"`
+- **Produção:** `"mongodb+srv://dba:s2OuCobCglTtech6@cluster0.uiv1l.mongodb.net/local_library?retryWrites=true"`
 
 **Comandos de execução da aplicação**
 
