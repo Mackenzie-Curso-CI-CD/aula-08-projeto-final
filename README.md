@@ -50,4 +50,4 @@ MONGODB_URI=<string_de_conexao_do_banco> npm run start
 - Identifique ao menos uma falha de segurança no código/aplicação
 - Implemente uma análise SAST no seu pipeline
 
-![good-luck](https://media.giphy.com/media/QXPfCbIa2VLI5lbzEP/source.mov)
+![good-luck](https://media.giphy.com/media/QXPfCbIa2VLI5lbzEP/giphy.gif)
