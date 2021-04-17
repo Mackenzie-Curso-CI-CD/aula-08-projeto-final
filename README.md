@@ -1,10 +1,9 @@
 # Aula 08 - Projeto Final
 
 Hora de construir nosso workflow do começo ao fim!
-<p align="center">
-<img src="https://media.giphy.com/media/12RfP2odT4hEOI/source.gif"/>
-</p>
 
+![scary-gif](https://media.giphy.com/media/12RfP2odT4hEOI/source.gif)
+   
 ## Requisitos obrigatórios
 
 1. Jobs obrigatórios
