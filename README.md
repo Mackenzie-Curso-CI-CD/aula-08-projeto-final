@@ -49,3 +49,5 @@ MONGODB_URI=<string_de_conexao_do_banco> npm run start
 0,5 ponto extra para cada item abaixo:
 - Identifique ao menos uma falha de segurança no código/aplicação
 - Implemente uma análise SAST no seu pipeline
+
+![good-luck](https://media.giphy.com/media/QXPfCbIa2VLI5lbzEP/source.mov)
