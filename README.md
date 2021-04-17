@@ -1,8 +1,11 @@
 # Aula 08 - Projeto Final
 
 Hora de construir nosso workflow do começo ao fim!
+<p align="center">
+<img src="https://media.giphy.com/media/12RfP2odT4hEOI/source.gif"/>
+</p>
 
-## Requisitos
+## Requisitos obrigatórios
 
 1. Jobs obrigatórios
    1. Build e test
@@ -18,8 +21,32 @@ Hora de construir nosso workflow do começo ao fim!
    2. Deploy homologação
 7. Ao menos 1 revisão de código obrigatória no Pull Request
 
+### ❗ Importante
+
+O deploy pode ser feito em qualquer cloud de sua preferência. Recomendados: **Azure e Heroku**
+
+## Dados importantes
+
+**Strings de conexão do Banco de Dados**
+- **Homologação:** "mongodb+srv://dba:s2OuCobCglTtech6@cluster0.uiv1l.mongodb.net/local_library_dev?retryWrites=true"
+- **Produção:** "mongodb+srv://dba:s2OuCobCglTtech6@cluster0.uiv1l.mongodb.net/local_library?retryWrites=true"
+
+**Comandos de execução da aplicação**
+
+- **Dev**
+
+```bash
+MONGODB_URI=<string_de_conexao_do_banco> npm run devstart
+```
+
+- **Prod**
+
+```bash
+MONGODB_URI=<string_de_conexao_do_banco> npm run start
+```
+
 ## Bônus
 
-0,5 ponto extra caso:
-- Identifique uma falha de segurança no código
+0,5 ponto extra para cada item abaixo:
+- Identifique ao menos uma falha de segurança no código/aplicação
 - Implemente uma análise SAST no seu pipeline
