@@ -42,13 +42,13 @@ O deploy pode ser feito em qualquer cloud de sua preferência. Recomendados: **A
 
 **Comandos de execução da aplicação**
 
-- **Dev**
+- **Homologação**
 
 ```bash
 MONGODB_URI=<string_de_conexao_do_banco> npm run devstart
 ```
 
-- **Prod**
+- **Produção**
 
 ```bash
 MONGODB_URI=<string_de_conexao_do_banco> npm run start
